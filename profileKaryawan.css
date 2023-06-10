@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Lexend");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-color: #ffffff;
+  font-family: Lexend;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+}
+
+.navbar img {
+  width: 50px;
+  height: 50px;
+  margin-right: 30px;
+}
+
+.navbar-left {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-left li {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-right li {
+  margin-left: 10px;
+  margin-right: 10px; /* Menambahkan jarak 10px ke kanan */
+}
+
+.navbar-right a {
+  text-decoration: none;
+  color: #8fcbe4;
+}
+
+.navbar-right a:hover {
+  color: #555;
+}
+
+.logout {
+  font-weight: bold;
+  color: red;
+}
+
+.navbar-right img {
+  margin-left: 50px; /* Menambahkan jarak 10px ke kiri */
+}
+
+.navbar-right li:nth-child(1) {
+  margin-right: 30px; /* Menambahkan jarak 20px ke kanan pada elemen pertama */
+}
+
+#sibayang {
+  margin-left: 30px; /* Menambahkan jarak 30px ke kiri */
+}
+
+.poto {
+  width: 80px;
+  height: 80px;
+}
+
+.biodata {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.teks {
+  margin-left: 50px;
+}
+
+.profile {
+  margin-left: 20px;
+}

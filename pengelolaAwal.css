@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Lexend");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-color: #ffffff;
+  font-family: Lexend;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+}
+
+.navbar img {
+  width: 50px;
+  height: 50px;
+  margin-right: 30px;
+}
+
+.navbar-left {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-left li {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.navbar-right {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-right li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.navbar-right a {
+  text-decoration: none;
+  color: #8FCBE4;
+}
+
+.navbar-right a:hover {
+  color: #555;
+}
+
+.logout {
+  font-weight: bold;
+  color: red;
+}
+
+#sibayang {
+  margin-left: 30px; /* Menambahkan jarak 30px ke kiri */
+}
+
+.photo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.time {
+  width: 36px;
+  height: 36px;
+  margin-right: 30px;
+}
+
+.pic {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.orang {
+  display: flex;
+  flex-direction: row;
+  /* margin-top: 15px; */
+}
+
+.kamar {
+    margin-top: 25px;
+    width: 220px;
+    height: 160px;
+    margin-right: 30px;
+}
+
+.daftar {
+    padding-left: 600px;
+}
